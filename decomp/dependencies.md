@@ -1,4 +1,4 @@
-## Setup
+## Installing Dependencies
 
 #### Dependencies:
 1. [Ghidra](https://github.com/NationalSecurityAgency/ghidra): Software Reverse Engineering tools

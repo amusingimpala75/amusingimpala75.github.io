@@ -15,14 +15,18 @@ Additionally, if you are on Unix based systems, you will need [Wine](https://win
 ##### Ghidra:
 1. Downlaod Ghidra from the [NSA Repoistory](https://github.com/NationalSecurityAgency/ghidra/releases)
 2. Extract the zip file to a directory, probably ``~/ghidra`` or ``C:\Users\<you>\ghidra``
+
 ##### Ghidra GameCubeLoader:
 1. Download GameCubeLoader from the Releases section and move the extension into ``<ghidra_folder>/Extensions/Ghidra``
 2. Run Ghidra via ``ghidraRun`` or ``ghidraRun.bat``
 3. In the Ghidra Project manager, select ``File -> Install Extensions``. If the name of GameCubeLoader is red, you will need to edit the extension.properties file in the root of the extension zip, changing the version to match whatever version of Ghidra you are using. Select the checkmark next to name, and when prompted to, restart Ghidra.
+
 ##### Petari:
 1. Clone Petari: ``git clone https://github.com/shibbo/petari.git``
+
 ##### CodeWarrior Demangler:
 1. Download [the file](https://github.com/matt-kempster/mips_to_c/blob/master/src/demangle_codewarrior.py) either manually or with ``curl https://raw.githubusercontent.com/matt-kempster/mips_to_c/master/src/demangle_codewarrior.py -o demangle_codewarrior.py``
+
 ##### Wiimms ISO Tools:
 1. Donwload and install from the [Wiimms ISO Tools](https://wit.wimm.de/) site.
 

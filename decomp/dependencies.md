@@ -7,7 +7,7 @@
 4. Python 3
 5. [CodeWarrior Demangler](https://github.com/matt-kempster/mips_to_c/blob/master/src/demangle_codewarrior.py): Demangles symbols such as function names and parameters outputted by CodeWarrior.
 6. Obviously a copy of the game we shall be decompiling, in this case Super Mario Galaxy 1.
-7. [Wiimms ISO Tools](https://wit.wiimm.de/): This will be used for extracting the filesystem of our game.
+7. [Dolphin Emulator](https://dolphin-emu.org): This will be used for extracting the filesystem of our game.
 
 Additionally, if you are on Unix based systems, you will need [Wine](https://winehq.org)
 
@@ -27,8 +27,8 @@ Additionally, if you are on Unix based systems, you will need [Wine](https://win
 ##### CodeWarrior Demangler:
 1. Download [the file](https://github.com/matt-kempster/mips_to_c/blob/master/src/demangle_codewarrior.py) either manually or with ``curl https://raw.githubusercontent.com/matt-kempster/mips_to_c/master/src/demangle_codewarrior.py -o demangle_codewarrior.py``
 
-##### Wiimms ISO Tools:
-1. Donwload and install from the [Wiimms ISO Tools](https://wit.wimm.de/) site.
+##### Dolphin Emulator:
+1. Download and install from the [Dolphin Emulator](https://dolphin-emu.org) site.
 
 [Back to Table of Contents](/decomp/guide)  
 [Next: Setup](/decomp/setup)

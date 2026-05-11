@@ -1,0 +1,20 @@
+#+TITLE: Diff of Services
+
+* Motivation
+I could rant about the modern state of Terms of Services. They're usually unnecessarily long,
+wordy and verbose, and will update randomly. The good sites will at least let you know when
+they are changing them, but the rest "expect" you to check each time as indicated by their
+"by signing in you agree..." message on their login page, which is quite frankly ridiculous. Seeing
+as I would like to know what I have agreed to while not sacrificing my entire time just to
+reading corporate nonsense I have set out to make this project to assist in this endeavor.
+Ideally, I would be able to just fetch the new revision and see the diff between them easily.
+My current solution is a git repo but that isn't ideal and does not help for a multi-device or
+mobile setup nor is it particularly friendly to non-developers. I do recognize this is a farily
+niche concern, but I figure there's at least 5 other people who would care, and if not I will at
+least benefit from this.
+
+* Design
+There's a core library that does most of the keeping track of stuff while providing separate crates that
+implement a CLI, TUI, and GUI (the TUI and GUI are still WIP). Additionally, there is a sync server
+to facilite working on multiple devices, including mobile. It's very rough at the moment, but I could
+forsee this adding HTML extraction mechanisms with update detection / notification.

@@ -1,0 +1,15 @@
+#+TITLE: AmusingImpala's Site
+#+AUTHOR: Luke Murray
+#+OPTIONS: toc:nil num:nil
+
+*  Welcome to my home page
+
+Hi! I'm a (rising) Computer Science Senior interested in a whole variety of CS things,
+but I probably spend too much time tweaking my NixOS and Emacs configs. I do however
+care much more for the theory / less tangible things than simply getting an end result,
+so I might do some blogs at some point about stuff I found interesting.
+
+I also am a conservative christian, so I might have some writing related to those eventually.
+All in good time.
+
+See [[./projects.org][here]] for my projects

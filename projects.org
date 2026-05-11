@@ -1,0 +1,23 @@
+#+TITLE: Projects
+#+OPTIONS: toc:nil num:nil
+
+Click the project titles to find a larger page about them.
+
+* [[./arcadeos.org][# ArcadeOS]] - C, Zig, x86 _64 Assembly
+A *basic* (I cannot emphasize this enough) kernel to learn some low-level programming
+
+* [[./boggle-solvers.org][# Boggle Solvers]] - Rust, Haskell, Go
+A series of programs to find and score boggle words
+
+* [[./dotfiles.org][# Dotfiles]] - Nix, DevOps, Linux, MacOS
+My NixOS / Emacs configurations for /everything/
+
+* [[./datapack++.org][# Datapack++]] - Java, Gradle, JSON
+An (old) attempt at making datapacks in Minecraft more powerful (think custom items)
+
+* [[./breaktime.org][# Breaktime]] - Objective C, Zig
+Possibly most useful thing I've made, fullscreen popup to tell me to take a break every so often
+
+* [[./diff-of-services.org][# Diff of Services]] - Rust
+I take that back, this might be the most useful thing I've made (once its more done).
+A terms of service tracking / diffing tool since I'm a masochist and read the whole documents.

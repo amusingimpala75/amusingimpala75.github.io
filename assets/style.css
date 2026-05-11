@@ -1,0 +1,95 @@
+/* Gruvbox */
+/* :root { */
+/*     --red: #cc241d; */
+/*     --orange: #d65d0e; */
+/*     --yellow:  #d79921; */
+/*     --green: #98971a; */
+/*     --blue: #458588; */
+/*     --purple: #b16286; */
+
+/*     --dark-bg: #1d2021; */
+/*     --bg: #282828; */
+/*     --grey: #928374; */
+/*     --fg: #ebdbb2; */
+/* } */
+
+:root {
+    --red: #bf161a;
+    --orange: #d08770;
+    --yellow: #ebcb8b;
+    --green: #a3be8c;
+    --blue: #81a1c1;
+    --purple: #b48ead;
+
+    --dark-bg: #eceff4;
+    --bg: #e5e9f0;
+    --grey: #4c566a;
+    --fg: #2e3440;
+}
+
+.org-type {
+    color: var(--yellow);
+    background-color: inherit;
+}
+
+.org-function-name {
+    color: var(--blue);
+    background-color: inherit;
+}
+
+.org-string {
+    color: var(--green);
+    background-color: inherit;
+}
+
+.org-nix-attribute {
+    color: var(--red);
+    background-color: inherit;
+}
+
+.org-keyword {
+    color: var(--purple);
+    background-color: inherit;
+}
+
+.src {
+    border-color: inherit;
+    background-color: var(--grey);
+    color: var(--bg);
+}
+
+:root {
+    color: var(--fg);
+    border-color: var(--grey);
+    background-color: var(--dark-bg);
+    font-size: 18px;
+}
+
+#wrapper {
+    background-color color: var(--dark-bg);
+}
+
+a {
+    color: var(--blue);
+}
+
+pre.src-nix:before {
+    content: 'Nix';
+}
+
+.outline-2 {
+    background-color: var(--bg);
+    border-radius: 16px;
+    padding: 16px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 > a {
+    color: var(--fg);
+    text-decoration: none;
+}

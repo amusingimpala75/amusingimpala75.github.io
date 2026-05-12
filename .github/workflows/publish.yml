@@ -14,6 +14,11 @@ jobs:
     - uses: DeterminateSystems/nix-installer-action@v22
     - name: Build / export
       run: nix develop -c just export
+    - name: Upload static files
+      id: deployment
+      uses: actions/upload-pages-artifact@@v3
+      with:
+        path: export/
 
   deploy:
     needs: build

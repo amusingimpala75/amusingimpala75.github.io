@@ -16,7 +16,7 @@ jobs:
       run: nix develop -c just export
     - name: Upload static files
       id: deployment
-      uses: actions/upload-pages-artifact@@v3
+      uses: actions/upload-pages-artifact@v3
       with:
         path: export/
 

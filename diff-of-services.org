@@ -1,5 +1,7 @@
 #+TITLE: Diff of Services
 
+#+OPTIONS: num:nil
+
 * Motivation
 I could rant about the modern state of Terms of Services. They're usually unnecessarily long,
 wordy and verbose, and will update randomly. The good sites will at least let you know when
@@ -16,5 +18,9 @@ least benefit from this.
 * Design
 There's a core library that does most of the keeping track of stuff while providing separate crates that
 implement a CLI, TUI, and GUI (the TUI and GUI are still WIP). Additionally, there is a sync server
-to facilite working on multiple devices, including mobile. It's very rough at the moment, but I could
+planned to facilite working on multiple devices, including mobile. It's very rough at the moment, but I could
 forsee this adding HTML extraction mechanisms with update detection / notification.
+
+[[./assets/diff-of-services-tui.png]]
+
+[[./assets/diff-of-services-gui.png]]

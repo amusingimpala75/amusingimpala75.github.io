@@ -1,5 +1,7 @@
 #+TITLE: Breaktime
 
+#+OPTIONS: num:nil
+
 * Motivation
 I can spend many hours in a row in front of the computer, and that is not good for anyone
 for a variety of reasons: not drinking water, being sedentary, and poor eye health. I have

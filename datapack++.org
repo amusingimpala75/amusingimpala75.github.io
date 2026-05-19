@@ -1,5 +1,7 @@
 #+TITLE: Datapack++
 
+#+OPTIONS: num:nil
+
 * Motivation
 I wanted to extend the datapacking system of the Java Edition of Minecraft to support
 custom blocks, items, etc. back a few years ago when I was soldily in my modding phase.
